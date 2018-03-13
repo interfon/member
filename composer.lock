@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca07253c0176dfdd208886e0019e59d2",
+    "content-hash": "bf0925c05fcf484f16c2c115cf2fc2a5",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -1333,8 +1333,7 @@
             "homepage": "https://www.drupal.org/project/betterlogin",
             "support": {
                 "source": "http://cgit.drupalcode.org/betterlogin"
-            },
-            "time": "2017-12-11T14:00:32+00:00"
+            }
         },
         {
             "name": "drupal/blazy",
@@ -3730,8 +3729,7 @@
             "homepage": "https://www.drupal.org/project/entity_clone",
             "support": {
                 "source": "http://cgit.drupalcode.org/entity_clone"
-            },
-            "time": "2016-04-14T07:57:21+00:00"
+            }
         },
         {
             "name": "drupal/entity_embed",
@@ -4024,8 +4022,7 @@
             "homepage": "https://www.drupal.org/project/extlink",
             "support": {
                 "source": "http://cgit.drupalcode.org/extlink"
-            },
-            "time": "2017-07-31T21:30:02+00:00"
+            }
         },
         {
             "name": "drupal/fast_404",
@@ -4488,8 +4485,7 @@
             "homepage": "https://www.drupal.org/project/google_analytics_reports",
             "support": {
                 "source": "http://cgit.drupalcode.org/google_analytics_reports"
-            },
-            "time": "2016-07-24T07:33:18+00:00"
+            }
         },
         {
             "name": "drupal/google_analytics_reports_api",
@@ -4647,8 +4643,7 @@
             "homepage": "https://www.drupal.org/project/image_resize_filter",
             "support": {
                 "source": "http://cgit.drupalcode.org/image_resize_filter"
-            },
-            "time": "2016-10-19T13:14:42+00:00"
+            }
         },
         {
             "name": "drupal/imageapi_optimize",
@@ -4915,8 +4910,7 @@
             "homepage": "https://www.drupal.org/project/l10n_client",
             "support": {
                 "source": "http://cgit.drupalcode.org/l10n_client"
-            },
-            "time": "2017-01-28T09:19:31+00:00"
+            }
         },
         {
             "name": "drupal/layout_plugin",
@@ -5261,8 +5255,7 @@
             "homepage": "https://www.drupal.org/project/login_destination",
             "support": {
                 "source": "http://cgit.drupalcode.org/login_destination"
-            },
-            "time": "2018-01-01T11:13:09+00:00"
+            }
         },
         {
             "name": "drupal/mail_edit",
@@ -5307,8 +5300,7 @@
             "homepage": "https://www.drupal.org/project/mail_edit",
             "support": {
                 "source": "http://cgit.drupalcode.org/mail_edit"
-            },
-            "time": "2017-04-11T00:08:39+00:00"
+            }
         },
         {
             "name": "drupal/mailsystem",
@@ -5595,8 +5587,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/material_admin_support",
                 "issues": "https://www.drupal.org/project/issues/material_admin_support"
-            },
-            "time": "2017-12-18T19:15:44+00:00"
+            }
         },
         {
             "name": "drupal/maxlength",
@@ -6087,8 +6078,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/menu_position",
                 "issues": "https://www.drupal.org/project/issues/menu_position"
-            },
-            "time": "2017-10-17T11:48:32+00:00"
+            }
         },
         {
             "name": "drupal/metatag",
@@ -6156,6 +6146,182 @@
             }
         },
         {
+            "name": "drupal/migrate_plus",
+            "version": "4.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/migrate_plus",
+                "reference": "8.x-4.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/migrate_plus-8.x-4.0-beta3.zip",
+                "reference": "8.x-4.0-beta3",
+                "shasum": "a0da6dc169a0315bf29a8dd0ee2146d18215a56b"
+            },
+            "require": {
+                "drupal/core": "^8.3"
+            },
+            "require-dev": {
+                "drupal/migrate_example_advanced_setup": "*",
+                "drupal/migrate_example_setup": "*"
+            },
+            "suggest": {
+                "ext-soap": "*",
+                "sainsburys/guzzle-oauth2-plugin": "3.0 required for the OAuth2 authentication plugin"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.0-beta3",
+                    "datestamp": "1519400592",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Ryan",
+                    "homepage": "https://www.drupal.org/u/mikeryan",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                }
+            ],
+            "description": "Enhancements to core migration support.",
+            "homepage": "https://www.drupal.org/project/migrate_plus",
+            "support": {
+                "source": "https://cgit.drupalcode.org/migrate_plus",
+                "issues": "https://www.drupal.org/project/issues/migrate_plus",
+                "irc": "irc://irc.freenode.org/drupal-migrate"
+            }
+        },
+        {
+            "name": "drupal/migrate_source_csv",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/migrate_source_csv",
+                "reference": "8.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/migrate_source_csv-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "056845ce1679a051733b12576e3204609dce293d"
+            },
+            "require": {
+                "drupal/core": "~8.1"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1",
+                "phpunit/phpunit": "~4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0",
+                    "datestamp": "1479750843",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Lucas Hedding",
+                    "homepage": "https://www.drupal.org/u/heddn",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                }
+            ],
+            "description": "CSV source migration.",
+            "homepage": "https://www.drupal.org/project/migrate_source_csv",
+            "support": {
+                "source": "https://cgit.drupalcode.org/migrate_source_csv",
+                "issues": "https://www.drupal.org/project/issues/migrate_source_csv",
+                "irc": "irc://irc.freenode.org/drupal-migrate"
+            }
+        },
+        {
+            "name": "drupal/migrate_tools",
+            "version": "2.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/migrate_tools",
+                "reference": "8.x-2.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/migrate_tools-8.x-2.0-beta1.zip",
+                "reference": "8.x-2.0-beta1",
+                "shasum": "bf823a9d08d08b99d5ea1469729b30f9969ef519"
+            },
+            "require": {
+                "drupal/core": "^8.1",
+                "drupal/migrate_plus": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-beta1",
+                    "datestamp": "1476313439",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "heddn",
+                    "homepage": "https://www.drupal.org/user/1463982"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                },
+                {
+                    "name": "moshe weitzman",
+                    "homepage": "https://www.drupal.org/user/23"
+                }
+            ],
+            "description": "Tools to assist in developing and running migrations.",
+            "homepage": "https://www.drupal.org/project/migrate_tools",
+            "support": {
+                "source": "http://cgit.drupalcode.org/migrate_tools"
+            }
+        },
+        {
             "name": "drupal/node_edit_protection",
             "version": "dev-1.x",
             "source": {
@@ -6206,8 +6372,7 @@
             "homepage": "https://www.drupal.org/project/node_edit_protection",
             "support": {
                 "source": "http://cgit.drupalcode.org/node_edit_protection"
-            },
-            "time": "2016-07-21T12:38:12+00:00"
+            }
         },
         {
             "name": "drupal/page_manager",
@@ -6809,8 +6974,7 @@
             "homepage": "https://www.drupal.org/project/pathologic",
             "support": {
                 "source": "http://cgit.drupalcode.org/pathologic"
-            },
-            "time": "2017-05-14T00:18:53+00:00"
+            }
         },
         {
             "name": "drupal/persistent_login",
@@ -7444,8 +7608,7 @@
             "homepage": "https://www.drupal.org/project/security_review",
             "support": {
                 "source": "http://cgit.drupalcode.org/security_review"
-            },
-            "time": "2016-10-20T15:43:48+00:00"
+            }
         },
         {
             "name": "drupal/shield",
@@ -8371,8 +8534,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/taxonomy_menu",
                 "issues": "http://drupal.org/project/taxonomy_menu"
-            },
-            "time": "2018-01-22T09:03:24+00:00"
+            }
         },
         {
             "name": "drupal/token",
@@ -8553,8 +8715,7 @@
             "homepage": "https://www.drupal.org/project/tour_builder",
             "support": {
                 "source": "http://cgit.drupalcode.org/tour_builder"
-            },
-            "time": "2017-06-08T14:46:01+00:00"
+            }
         },
         {
             "name": "drupal/tour_ui",
@@ -8603,8 +8764,7 @@
             "homepage": "https://www.drupal.org/project/tour_ui",
             "support": {
                 "source": "http://cgit.drupalcode.org/tour_ui"
-            },
-            "time": "2017-06-22T15:24:47+00:00"
+            }
         },
         {
             "name": "drupal/type_style",
@@ -8645,8 +8805,7 @@
             "homepage": "https://www.drupal.org/project/type_style",
             "support": {
                 "source": "http://cgit.drupalcode.org/type_style"
-            },
-            "time": "2017-12-11T23:10:48+00:00"
+            }
         },
         {
             "name": "drupal/ultimate_cron",
@@ -9602,8 +9761,7 @@
             ],
             "support": {
                 "source": "http://cgit.drupalcode.org/views_bootstrap"
-            },
-            "time": "2017-10-07T17:46:52+00:00"
+            }
         },
         {
             "name": "drupal/views_bulk_edit",
