@@ -14,7 +14,7 @@ bundle: bp_columns
 label: 'CSS class(es)'
 description: 'Customize the styling by adding CSS classes. Separate multiple classes by spaces.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

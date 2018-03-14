@@ -16,7 +16,7 @@ bundle: bp_block
 label: Largeur
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: paragraph--width--full
 default_value_callback: ''
 settings: {  }

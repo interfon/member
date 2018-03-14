@@ -17,7 +17,7 @@ bundle: bp_accordion
 label: 'Accordion section'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -14,7 +14,7 @@ bundle: bp_columns_two_uneven
 label: Gutter
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: 0

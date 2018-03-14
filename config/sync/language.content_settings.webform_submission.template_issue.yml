@@ -7,5 +7,5 @@ dependencies:
 id: webform_submission.template_issue
 target_entity_type_id: webform_submission
 target_bundle: template_issue
-default_langcode: site_default
-language_alterable: false
+default_langcode: current_interface
+language_alterable: true
