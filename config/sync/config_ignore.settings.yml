@@ -1,0 +1,7 @@
+ignored_config_entities:
+  - 'webform.webform.*'
+  - 'xmlsitemap.xmlsitemap.*'
+  - 'varbase_core.general_settings.*'
+_core:
+  default_config_hash: kVHm86ptbASdxaOvIK_3Iz1v008RBcZzWVOo0qyAoIA
+langcode: fr

@@ -1,0 +1,18 @@
+uuid: e0095886-be1f-40ee-a3e4-5fd5b1ef1aef
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qs20TFeuHiFrhoFp2Xs9BXcTVali6cyEfaYYKNHNUoU
+name: d10
+label: 'Display 10 (1000xAuto)'
+effects:
+  13c0474a-655c-4fcb-8bc7-3229688831b8:
+    uuid: 13c0474a-655c-4fcb-8bc7-3229688831b8
+    id: image_scale
+    weight: 1
+    data:
+      width: 1000
+      height: null
+      upscale: false
+pipeline: ''

@@ -1,0 +1,31 @@
+uuid: 785f8d0a-c75a-4c91-a46a-ca858901ebbe
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_webform_field
+    - paragraphs.paragraphs_type.bp_webform
+  module:
+    - webform
+_core:
+  default_config_hash: vJrDTu_Lx2J7XhsSmUReQ3Da13olHPysj4Ifne2y1a8
+id: paragraph.bp_webform.bp_webform_field
+field_name: bp_webform_field
+entity_type: paragraph
+bundle: bp_webform
+label: Webform
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform

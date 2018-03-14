@@ -1,0 +1,15 @@
+uuid: ca1fd76d-991c-4f72-b9dc-7861d22fa14e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.d8
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: p4PBAmINXalOcM-CErsKBu1I_V9efMYwDidYT9OumaM
+id: d8
+label: 'Display 8 responsive auto'
+image_style_mappings: {  }
+breakpoint_group: bootstrap
+fallback_image_style: d8

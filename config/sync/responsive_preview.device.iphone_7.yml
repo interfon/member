@@ -1,0 +1,11 @@
+id: iphone_7
+uuid: 83d8f2cd-50a7-41a0-aaa1-4415dc444280
+label: 'iPhone 7'
+weight: -10
+status: 1
+orientation: portrait
+dimensions:
+  width: 750
+  height: 1334
+  dppx: !!float 2
+langcode: fr

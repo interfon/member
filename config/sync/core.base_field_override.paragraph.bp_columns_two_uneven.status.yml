@@ -1,0 +1,22 @@
+uuid: b3b05418-f1db-440b-ad61-8fb02db4ad64
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_columns_two_uneven
+id: paragraph.bp_columns_two_uneven.status
+field_name: status
+entity_type: paragraph
+bundle: bp_columns_two_uneven
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

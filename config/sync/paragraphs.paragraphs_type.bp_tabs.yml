@@ -1,0 +1,11 @@
+uuid: 7e0dbc35-f42b-4d8d-b134-1bc0c2f14e33
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WS3Zxq_5f5Cu4dGqB3VsfaYtcKciZnPK9Mt8jsNy5j8
+id: bp_tabs
+label: Onglets
+icon_uuid: null
+description: null
+behavior_plugins: {  }

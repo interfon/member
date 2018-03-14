@@ -1,0 +1,16 @@
+uuid: a62fe295-796d-4de0-afcf-0b025e82b2b2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_modal
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.bp_modal
+target_entity_type_id: paragraph
+target_bundle: bp_modal
+default_langcode: site_default
+language_alterable: false

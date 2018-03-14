@@ -1,0 +1,26 @@
+uuid: cbd20ad0-5cce-41f2-bf6b-0a3a70d54310
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.d6
+    - image.style.d8
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: 2gS9N8qnEuGokUE9NyJpgN5eEK3z97grLoJbqjGbYeQ
+id: d6
+label: 'Display 6 responsive auto'
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap.screen-xs-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: d8
+  -
+    breakpoint_id: bootstrap.screen-sm-min
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: d6
+breakpoint_group: bootstrap
+fallback_image_style: d6

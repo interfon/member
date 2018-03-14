@@ -1,0 +1,8 @@
+roleassign_roles:
+  editor: editor
+  content_admin: content_admin
+  site_admin: site_admin
+  administrator: '0'
+_core:
+  default_config_hash: 9nJ5xZIlBZ169m8KqrpMgbw5KoDv0B5aCMi_Vwz6Vpg
+langcode: fr

@@ -1,0 +1,34 @@
+uuid: 1bc7748d-1f73-404f-b250-0be1e6c97549
+langcode: fr
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.media.s5_square
+    - field.field.media.video.field_media_video_embed_field
+    - media_entity.bundle.video
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: VYOiuvmS97P9obWFQCu7fa0MkBuXfrsRMq8LR8-9BIY
+id: media.video.s5_square
+targetEntityType: media
+bundle: video
+mode: s5_square
+content:
+  field_media_video_embed_field:
+    type: video_embed_field_video
+    weight: 0
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

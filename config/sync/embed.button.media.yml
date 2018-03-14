@@ -1,0 +1,27 @@
+uuid: ee550435-4e67-4121-8fd0-be5821b2b196
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.image
+  module:
+    - entity_embed
+    - media_entity
+_core:
+  default_config_hash: 8kBBOH5YJUcmn0jxWtf2cmh6R1AWJ_P23qsvA9rRgJk
+label: 'Media Library'
+id: media
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+  display_plugins:
+    - 'view_mode:media.large'
+    - 'view_mode:media.medium'
+    - 'view_mode:media.original'
+    - 'view_mode:media.small'
+  entity_browser: editor_media_browser
+  entity_browser_settings:
+    display_review: false
+icon_uuid: null

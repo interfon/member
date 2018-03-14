@@ -1,0 +1,20 @@
+uuid: 86f81cd6-d09c-49e4-8251-b7a6c35d771e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.video
+_core:
+  default_config_hash: wlrmcwHrv4KQFk90mplBo4y7V6-MnlY0tQwbTQ59Mik
+id: media.video.revision_log
+field_name: revision_log
+entity_type: media
+bundle: video
+label: 'Revision Log'
+description: 'L''entrée de journal expliquant les changements dans cette révision.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

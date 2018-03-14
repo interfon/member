@@ -1,0 +1,11 @@
+uuid: 1a76b08f-698e-46a2-8bcf-70e7849c729a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - webform.webform.template_user_profile
+id: webform_submission.template_user_profile
+target_entity_type_id: webform_submission
+target_bundle: template_user_profile
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,20 @@
+uuid: 4e0badb8-1b50-4e1a-affb-09edb7ea4bc2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.landing_page
+_core:
+  default_config_hash: mk19yuGLTOyBtbyk35Ku2uqDckVb4NSTxXqbefFo85Y
+id: node.landing_page.changed
+field_name: changed
+entity_type: node
+bundle: landing_page
+label: Modifié
+description: 'Le moment auquel le nœud a été modifié pour la dernière fois.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

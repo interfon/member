@@ -1,0 +1,12 @@
+uuid: 58c8adf9-54ab-4e78-b0c1-0a2aa0a6226d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: LWNdKZriHaH528P-A-2Tw-TlylawzD5kgXAlDh9XQXc
+id: media.se2e_square
+label: 'Size Edge-to-Edge square 1:1'
+targetEntityType: media
+cache: true

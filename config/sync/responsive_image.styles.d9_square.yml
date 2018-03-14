@@ -1,0 +1,26 @@
+uuid: c6412163-fbac-4c73-9e8c-7a4ea6e7e946
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.d8_square
+    - image.style.d9_square
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: XhW34_bIxvhQSDleH82X5tuW2uC6Prtx5lGgn5ryBOE
+id: d9_square
+label: 'Display 9 responsive square 1:1'
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap.screen-xs-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: d8_square
+  -
+    breakpoint_id: bootstrap.screen-sm-min
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: d9_square
+breakpoint_group: bootstrap
+fallback_image_style: d8_square

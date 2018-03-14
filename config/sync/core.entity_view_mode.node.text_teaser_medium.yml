@@ -1,0 +1,12 @@
+uuid: 6e457f48-cc1a-44bc-8d91-ed20641cc724
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: rrHiqsz9fMj0Week4bfqX8-W_3KP6soE3jZ5mKEY6aM
+id: node.text_teaser_medium
+label: 'Text teaser - medium'
+targetEntityType: node
+cache: true

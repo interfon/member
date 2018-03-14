@@ -1,0 +1,11 @@
+uuid: 1a571d7b-402a-405e-9861-1f34c76608cb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - webform.webform.template_employee_evaluation
+id: webform_submission.template_employee_evaluation
+target_entity_type_id: webform_submission
+target_bundle: template_employee_evaluation
+default_langcode: site_default
+language_alterable: false

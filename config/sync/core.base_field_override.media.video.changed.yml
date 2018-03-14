@@ -1,0 +1,20 @@
+uuid: 72aac64e-413a-4215-be24-ae93069747f5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.video
+_core:
+  default_config_hash: 70br-He-AphlqTdiPfom7x8zD47YZWmrvw7901tmr7I
+id: media.video.changed
+field_name: changed
+entity_type: media
+bundle: video
+label: Modifié
+description: 'The time that the media was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

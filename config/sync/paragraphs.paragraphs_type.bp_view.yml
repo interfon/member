@@ -1,0 +1,11 @@
+uuid: b7c6fcf2-0790-4bec-ac9b-997eb25cd012
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rJ7EzXfuPSoC1tabWMIBvakQpkQlQPORiyvZ41mNm84
+id: bp_view
+label: Voir
+icon_uuid: null
+description: null
+behavior_plugins: {  }

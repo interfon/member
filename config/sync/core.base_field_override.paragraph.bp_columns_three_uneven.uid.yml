@@ -1,0 +1,20 @@
+uuid: 39ce9dad-e308-466e-9a76-6f9effc6fbd1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_columns_three_uneven
+id: paragraph.bp_columns_three_uneven.uid
+field_name: uid
+entity_type: paragraph
+bundle: bp_columns_three_uneven
+label: 'Écrit par'
+description: 'The user ID of the paragraphs author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

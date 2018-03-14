@@ -1,0 +1,20 @@
+uuid: e2acbfdd-2197-46cd-886e-3c940d55797d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.landing_page
+_core:
+  default_config_hash: AzedxX2bHDWfFfm9--0MZaHorqbzagjOkxQw291hWrI
+id: node.landing_page.created
+field_name: created
+entity_type: node
+bundle: landing_page
+label: 'Écrit le'
+description: 'L''heure à laquelle le nœud a été créé.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

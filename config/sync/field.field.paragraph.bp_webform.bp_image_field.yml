@@ -1,0 +1,30 @@
+uuid: f3aa8743-a96d-4eee-8799-5a387bf67098
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_image_field
+    - media_entity.bundle.image
+    - paragraphs.paragraphs_type.bp_webform
+_core:
+  default_config_hash: cug4hJiaV5Pw17GKrh9EOwV4fQ38O-MchOeUFtNzhF8
+id: paragraph.bp_webform.bp_image_field
+field_name: bp_image_field
+entity_type: paragraph
+bundle: bp_webform
+label: 'Background image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

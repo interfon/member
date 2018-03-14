@@ -1,0 +1,9 @@
+uuid: 483dec98-77b0-4585-ac58-590c17edb4d9
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9T2Gy3OVYqvDfLt3Wbxfwd4kuXpkjgA1Nqs96h7mZ8k
+id: administer_date_time
+label: 'Administer date-time'
+path: admin/config/regional/date-time

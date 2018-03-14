@@ -1,0 +1,21 @@
+uuid: dafef642-314d-467f-84d1-dc8a52d1854b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_document
+third_party_settings:
+  crop:
+    image_field: field_document_file
+_core:
+  default_config_hash: xNEkhzj1bkqXMEssKbWkuotOE6acdY83WMfB907N7uk
+id: document
+label: Document
+description: 'A Document file is written information like PDF,  Document.'
+type: document
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_document_file
+field_map: {  }

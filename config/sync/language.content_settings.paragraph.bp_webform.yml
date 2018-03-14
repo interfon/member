@@ -1,0 +1,16 @@
+uuid: b556afda-d54a-4694-bfc9-65b6713c201a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_webform
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.bp_webform
+target_entity_type_id: paragraph
+target_bundle: bp_webform
+default_langcode: site_default
+language_alterable: false

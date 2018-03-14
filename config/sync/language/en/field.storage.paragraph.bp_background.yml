@@ -1,0 +1,12 @@
+settings:
+  allowed_values:
+    -
+      label: Blue
+    -
+      label: Madison
+    -
+      label: 'Dark Gray'
+    -
+      label: 'Light Gray'
+    -
+      label: Red

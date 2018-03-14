@@ -1,0 +1,52 @@
+uuid: 7c6da0b5-9c66-4bfc-8f8d-7157014273d0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.media.image.field_image
+    - image.style.field_preview
+    - media_entity.bundle.image
+  module:
+    - focal_point
+    - path
+_core:
+  default_config_hash: 4MyJ_a4wWiNll0yf-r5oGkRE0nVs_fSQpQs-H492okY
+id: media.image.default
+targetEntityType: media
+bundle: image
+mode: default
+content:
+  field_image:
+    weight: 0
+    settings:
+      preview_image_style: field_preview
+      progress_indicator: throbber
+      preview_link: true
+      offsets: '50,50'
+    third_party_settings: {  }
+    type: image_focal_point
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+    region: content
+  name:
+    type: string_textfield
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

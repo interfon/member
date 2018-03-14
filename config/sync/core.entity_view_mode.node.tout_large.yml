@@ -1,0 +1,12 @@
+uuid: 7d961409-53a5-450b-ab06-b7c136565af6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Pu-WdKTUNIfa9pnBiBsN5mPwZ79Za8YKj63Yg2l8Mfc
+id: node.tout_large
+label: 'Tout - large'
+targetEntityType: node
+cache: true

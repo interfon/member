@@ -1,0 +1,16 @@
+uuid: ea0640e2-6e65-499a-9272-b971cae4a162
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_columns_three_uneven
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.bp_columns_three_uneven
+target_entity_type_id: paragraph
+target_bundle: bp_columns_three_uneven
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,11 @@
+uuid: 2262e3b9-7a42-464a-a3d0-986e3b691287
+langcode: fr
+status: true
+dependencies:
+  config:
+    - webform.webform.template_session_evaluation
+id: webform_submission.template_session_evaluation
+target_entity_type_id: webform_submission
+target_bundle: template_session_evaluation
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,24 @@
+uuid: fc572c0f-5118-48be-a9ef-dc45b3e4abae
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.video
+_core:
+  default_config_hash: Ucq3B2IkwhX2yyQnpzXB13vn3OU97D8lPLQT9AIIgSE
+id: media.video.status
+field_name: status
+entity_type: media
+bundle: video
+label: 'Publishing status'
+description: 'A boolean indicating whether the media is published.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

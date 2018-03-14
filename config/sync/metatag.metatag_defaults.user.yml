@@ -1,0 +1,11 @@
+uuid: 31f5663d-334d-4126-9138-d95c9eb2f964
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 55_ygghZ5WYRmjJl1ZTsE24bPA0vS_Y8JnJRiC4yvrw
+id: user
+label: Utilisateur
+tags:
+  title: '[user:name] | [site:name]'
+  og_type: profile

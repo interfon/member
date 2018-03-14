@@ -1,0 +1,10 @@
+scheme_whitelist:
+  - http
+  - https
+  - files
+  - internal
+protocol_style: path
+local_paths: ''
+_core:
+  default_config_hash: 1Bttv6qXUXnoy_a8ncTum0GVwqcFb7_TKTsuelAjIjE
+langcode: fr

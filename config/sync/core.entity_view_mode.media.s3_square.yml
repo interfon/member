@@ -1,0 +1,12 @@
+uuid: 8bdef215-e3c5-4b44-99ac-d6877e8962c9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: 3_iXRBOtA5XmapvDH3dSSDSRy1OWfTBRS_bjtIw3fWQ
+id: media.s3_square
+label: 'Size 3 square 1:1'
+targetEntityType: media
+cache: true

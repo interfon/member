@@ -1,0 +1,18 @@
+uuid: 49c40f85-5a13-4f7b-836f-623e4cb86169
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_tab_section
+id: paragraph.bp_tab_section.created
+field_name: created
+entity_type: paragraph
+bundle: bp_tab_section
+label: 'Écrit le'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

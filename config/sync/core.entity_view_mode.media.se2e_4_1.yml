@@ -1,0 +1,12 @@
+uuid: 88b65c00-3006-4f82-99da-08a7519627c5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: E6dbnWPjrR72lFux2SYPZ4Jxbszdv5fFUaCYgd7vVQ8
+id: media.se2e_4_1
+label: 'Size Edge-to-Edge 4:1'
+targetEntityType: media
+cache: true

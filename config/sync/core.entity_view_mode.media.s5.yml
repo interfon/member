@@ -1,0 +1,12 @@
+uuid: 4c094561-8a2c-42e2-af75-27863075224f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: wnmmpUWZEA-_IT4cGk5V8iHF1nDICaZUlfdtBnbTD34
+id: media.s5
+label: 'Size 5 auto'
+targetEntityType: media
+cache: true

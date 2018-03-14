@@ -1,0 +1,20 @@
+uuid: 810ab0b2-0d2e-4ac6-8c69-297f08f60325
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+_core:
+  default_config_hash: w_ImULAjZ_0FWCZxxXe67Vnfiz0a054lXrLvfsbHdlQ
+id: block_content.basic.changed
+field_name: changed
+entity_type: block_content
+bundle: basic
+label: Modifié
+description: 'L''heure à laquelle le bloc personnalisé a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

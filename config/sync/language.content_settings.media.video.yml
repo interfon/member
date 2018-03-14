@@ -1,0 +1,16 @@
+uuid: 4898b2a9-fbc2-4bde-a076-81100338451b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.video
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: media.video
+target_entity_type_id: media
+target_bundle: video
+default_langcode: site_default
+language_alterable: false

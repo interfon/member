@@ -1,0 +1,20 @@
+uuid: 93247e6d-6007-4cfc-a3d1-86703652b51d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: GuXs7TOSv_oU2xvmbX5N-uZx6QLeiP9KJHBHKVJ3xU0
+name: d3_square
+label: 'Display 3 (300xSquare 1:1)'
+effects:
+  d813a3a7-213c-4cb8-9707-7261ade1b49c:
+    uuid: d813a3a7-213c-4cb8-9707-7261ade1b49c
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      crop_type: focal_point
+pipeline: ''

@@ -1,0 +1,23 @@
+uuid: 6edb33e1-209d-4364-a13a-8ca13203f5fe
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_background
+    - paragraphs.paragraphs_type.bp_image
+  module:
+    - options
+_core:
+  default_config_hash: Q4U6hTfGAgRggL10SIo03FAaaaYNTdNwJei6_f6Yzqc
+id: paragraph.bp_image.bp_background
+field_name: bp_background
+entity_type: paragraph
+bundle: bp_image
+label: 'Couleur d''arrière-plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

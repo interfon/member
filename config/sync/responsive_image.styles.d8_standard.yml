@@ -1,0 +1,15 @@
+uuid: dacf48c7-dfa9-4778-b4be-0c8d5311d742
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.d8_standard
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: ohz57fWbL9SgDFpLkJkIW9BNmkZmuW1FxuEAcZtupNw
+id: d8_standard
+label: 'Display 8 responsive standard 16:9'
+image_style_mappings: {  }
+breakpoint_group: bootstrap
+fallback_image_style: d8_standard

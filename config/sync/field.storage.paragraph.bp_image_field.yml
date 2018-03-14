@@ -1,0 +1,22 @@
+uuid: ae31e5e3-1b75-4792-b267-279f51999e0e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+    - paragraphs
+_core:
+  default_config_hash: sDxUyVuynH65eiwsrlpwoT7CUHzu0lOHwWP2tGunBWo
+id: paragraph.bp_image_field
+field_name: bp_image_field
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

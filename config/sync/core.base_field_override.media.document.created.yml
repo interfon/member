@@ -1,0 +1,20 @@
+uuid: ad461b6b-9315-4330-909b-8882e5624122
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.document
+_core:
+  default_config_hash: d3nXC31ij6kHH_wlMhgJS7xY7kq61XDlJJYRTBmET2Q
+id: media.document.created
+field_name: created
+entity_type: media
+bundle: document
+label: Créé(e)
+description: 'The time that the media was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

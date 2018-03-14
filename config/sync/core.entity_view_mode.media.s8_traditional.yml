@@ -1,0 +1,12 @@
+uuid: e1ad62e3-892b-46ca-9896-40e9166d6856
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: quGwZeG4bilyXJEJ4MREYkv6MGrNyEB-bR6QVbRtyMo
+id: media.s8_traditional
+label: 'Size 8 traditional 4:3'
+targetEntityType: media
+cache: true

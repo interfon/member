@@ -1,0 +1,20 @@
+uuid: 1768559f-0c6f-4107-862c-66fd4dd0754c
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - vartheme
+_core:
+  default_config_hash: q-wQopdWdlXxfXBOwcgMWqX7kNdtql3QoGsZVzKsXhk
+id: vartheme_page_title
+theme: vartheme
+region: header
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility: {  }

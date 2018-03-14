@@ -1,0 +1,22 @@
+uuid: 8edef3fe-1962-4b62-b7b9-12706b4a92b1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_tab_section
+id: paragraph.bp_tab_section.status
+field_name: status
+entity_type: paragraph
+bundle: bp_tab_section
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

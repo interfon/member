@@ -1,0 +1,23 @@
+uuid: a73eb1d7-25d6-405a-885e-9c7b12a40ec0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_background
+    - paragraphs.paragraphs_type.bp_accordion
+  module:
+    - options
+_core:
+  default_config_hash: ajEO9GssXe6a_Txx4J2mMfWshv36C2ze0b4dXRiWwVA
+id: paragraph.bp_accordion.bp_background
+field_name: bp_background
+entity_type: paragraph
+bundle: bp_accordion
+label: 'Couleur d''arrière-plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

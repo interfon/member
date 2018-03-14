@@ -1,0 +1,12 @@
+uuid: 2e41ea58-5506-4c14-ab09-92001600b70f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: mFnSWyW40loH6ykbgHoBTvOTKkMfDEuijaG4vIrNpKQ
+id: media.s5_standard
+label: 'Size 5 standard 16:9'
+targetEntityType: media
+cache: true

@@ -1,0 +1,26 @@
+uuid: 1bf6b700-d1f6-4066-8ff6-559ce3156f0a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.d3_standard
+    - image.style.d8_standard
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: ToGRc45PugWIiOak_N92i0ku7VRfF5mezBhg9WMxkoo
+id: d3_standard
+label: 'Display 3 responsive standard 16:9'
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap.screen-xs-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: d8_standard
+  -
+    breakpoint_id: bootstrap.screen-sm-min
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: d3_standard
+breakpoint_group: bootstrap
+fallback_image_style: d3_standard

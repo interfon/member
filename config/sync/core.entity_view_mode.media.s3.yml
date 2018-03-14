@@ -1,0 +1,12 @@
+uuid: 90a9025b-170f-4ce1-ae1f-676195efb5b3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: gcq2yilwY53LwmttepxrkhAyyoRWtbyPb6WqERpURAc
+id: media.s3
+label: 'Size 3 auto'
+targetEntityType: media
+cache: true

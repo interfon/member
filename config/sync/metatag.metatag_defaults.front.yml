@@ -1,0 +1,17 @@
+uuid: 4177a81a-e8f7-4268-b71e-20a0b3bac91b
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mbv5gBm2YtCA8CgovZ4n9YdRU1c5y5NvPgt17udo1VA
+id: front
+label: 'Page d''accueil'
+tags:
+  shortlink: '[site:url]'
+  title: '[site:name] | [site:slogan]'
+  canonical_url: '[site:url]'
+  google_plus_name: '[site:name] | [site:slogan]'
+  og_url: '[site:url]'
+  og_title: '[site:name] | [site:slogan]'
+  twitter_cards_page_url: '[site:url]'
+  twitter_cards_title: '[site:name] | [site:slogan]'

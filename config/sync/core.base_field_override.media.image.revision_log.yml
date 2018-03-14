@@ -1,0 +1,20 @@
+uuid: fb7f4606-381b-4d55-9721-c8932af7cb64
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.image
+_core:
+  default_config_hash: qDjXtyZy0vTp3hV24c8SVWuIW86vbJJSfraILIpaWjQ
+id: media.image.revision_log
+field_name: revision_log
+entity_type: media
+bundle: image
+label: 'Revision Log'
+description: 'L''entrée de journal expliquant les changements dans cette révision.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

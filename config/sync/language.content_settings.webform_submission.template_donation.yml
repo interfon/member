@@ -1,0 +1,11 @@
+uuid: aff82083-37f8-4f11-9654-df472de2013e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - webform.webform.template_donation
+id: webform_submission.template_donation
+target_entity_type_id: webform_submission
+target_bundle: template_donation
+default_langcode: site_default
+language_alterable: false

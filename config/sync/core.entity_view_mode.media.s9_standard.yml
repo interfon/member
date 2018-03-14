@@ -1,0 +1,12 @@
+uuid: e24edad0-9879-441a-a257-bff195545b28
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: FY_GDhSVGCmXRJzyRqEBa2ZoTFAyMGz0DlMZBJDF6Jw
+id: media.s9_standard
+label: 'Size 9 standard 16:9'
+targetEntityType: media
+cache: true

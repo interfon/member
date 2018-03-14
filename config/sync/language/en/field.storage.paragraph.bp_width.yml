@@ -1,0 +1,14 @@
+settings:
+  allowed_values:
+    -
+      label: Tiny
+    -
+      label: Narrow
+    -
+      label: Medium
+    -
+      label: Wide
+    -
+      label: 'Full width'
+    -
+      label: 'Edge to Edge'

@@ -1,0 +1,16 @@
+uuid: 8f2deb38-9df7-4b5e-8617-fd66935c1607
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_column_wrapper
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.bp_column_wrapper
+target_entity_type_id: paragraph
+target_bundle: bp_column_wrapper
+default_langcode: site_default
+language_alterable: false

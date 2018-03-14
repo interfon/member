@@ -1,0 +1,22 @@
+uuid: cb882500-8bf7-40cb-8a0a-09b544cae817
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_admin
+_core:
+  default_config_hash: ab6ItWSYgywBTtPpkhsx-4xqRlPDHJQYh2dgW-Ibngo
+id: vartheme_admin_breadcrumbs
+theme: vartheme_admin
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''Ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

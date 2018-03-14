@@ -1,0 +1,18 @@
+uuid: cfdc2913-e326-42d1-b45b-49e3db8bd4af
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HpkG1d7a_3GLB-k_HB6a3xbTwYUorp81jjfKncVI7_I
+name: d2
+label: 'Display 2 (200xAuto)'
+effects:
+  18a36955-4245-415d-b073-6ae036f8c739:
+    uuid: 18a36955-4245-415d-b073-6ae036f8c739
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: null
+      upscale: false
+pipeline: ''

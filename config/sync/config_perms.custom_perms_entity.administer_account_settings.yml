@@ -1,0 +1,9 @@
+uuid: 587c8149-697f-41e4-97d3-3d53cd55b0a3
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j2_OwJn7WxpF1AARnqraKYmuPFhVPx57f-HWzGcOCgo
+id: administer_account_settings
+label: 'Administrer les paramètres du compte'
+path: admin/config/people/accounts

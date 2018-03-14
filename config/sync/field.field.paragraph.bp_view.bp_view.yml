@@ -1,0 +1,29 @@
+uuid: 3feda41d-63cb-4cf4-9693-9ebaf9e88851
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_view
+    - paragraphs.paragraphs_type.bp_view
+  module:
+    - viewsreference
+_core:
+  default_config_hash: 1sV05kxd2bvixwgiirrNOF75W8tagNO6O9hg44uS9hg
+id: paragraph.bp_view.bp_view
+field_name: bp_view
+entity_type: paragraph
+bundle: bp_view
+label: Voir
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings: {  }
+  plugin_types:
+    block: block
+  preselect_views: {  }
+  enabled_settings: {  }
+field_type: viewsreference
