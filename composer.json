@@ -47,7 +47,9 @@
     "drupal/login_destination": "1.x-dev#54be8b89fdc073ca40af6b9b2eeb050e0aeb7908",
     "drupal/betterlogin": "1.x-dev#f7cf1c5c9ec5e80c6ac0ef04ed605e25495232cd",
     "drupal/migrate_source_csv": "^2.0",
-    "drupal/migrate_tools": "^2.0"
+    "drupal/migrate_tools": "4.0-beta3",
+    "drupal/module_filter": "^3.1",
+    "drupal/migrate_plus": "4.0-beta3"
   },
   "config": {
     "bin-dir": "bin/",
