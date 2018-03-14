@@ -1,0 +1,30 @@
+uuid: 0ecb1a94-d9a4-46ac-a4d6-e89dc481653b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_carousel_block
+    - field.storage.block_content.field_media_carousel_slide
+    - media_entity.bundle.image
+_core:
+  default_config_hash: 7-H4hCF4ORBW64CfqjndfBCMjMedEYUtSoHDpLljXcQ
+id: block_content.varbase_carousel_block.field_media_carousel_slide
+field_name: field_media_carousel_slide
+entity_type: block_content
+bundle: varbase_carousel_block
+label: 'Carousel slides'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

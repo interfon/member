@@ -1,0 +1,55 @@
+uuid: 463a3822-7f34-4160-b07c-f03bef032054
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.image
+    - views.view.browser
+  module:
+    - dropzonejs_eb_widget
+    - media_entity
+    - views
+_core:
+  default_config_hash: v9SlldSvly-if-fl0pPfsrhCVQA18VcFfwdzgm2iLMY
+name: carousels_media_browser
+label: 'Carousels Media Browser'
+display: iframe
+display_configuration:
+  width: 100%
+  height: '500'
+  link_text: 'Select image(s)'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  8fe85ba3-e465-4c65-b862-023ff686fd79:
+    settings:
+      view: browser
+      view_display: images_browser
+      submit_text: 'Select image(s)'
+      auto_select: false
+    uuid: 8fe85ba3-e465-4c65-b862-023ff686fd79
+    weight: -10
+    label: Library
+    id: view
+  e15272db-181e-4f4c-91df-b12696332209:
+    settings:
+      form_mode: default
+      media_entity_bundle: image
+      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop image files here to upload them'
+      max_filesize: 32M
+      extensions: 'jpg jpeg gif png'
+      clientside_resize: false
+      resize_width: null
+      resize_height: null
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
+      submit_text: 'Select image(s)'
+    uuid: e15272db-181e-4f4c-91df-b12696332209
+    weight: 3
+    label: Upload
+    id: dropzonejs_media_entity_inline_entity_form

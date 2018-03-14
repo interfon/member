@@ -1,0 +1,12 @@
+uuid: 59f19740-4c85-420e-a2b6-79b7db856cd9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: TpgahU6V16-K6ltAWOu5SKEA7BitWtf0GtCQ1wF_BmA
+id: media.varbase_media_hero_slider
+label: 'Media Hero Slider'
+targetEntityType: media
+cache: true

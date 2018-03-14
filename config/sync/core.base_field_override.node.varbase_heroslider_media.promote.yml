@@ -1,0 +1,24 @@
+uuid: 45b2c0a5-a47b-48e1-94a7-b493a34b8fbb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.varbase_heroslider_media
+_core:
+  default_config_hash: deoxIJjxb4mF8WBKP5WVMGH-TZaBp7imhrZiVh5DBPE
+id: node.varbase_heroslider_media.promote
+field_name: promote
+entity_type: node
+bundle: varbase_heroslider_media
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
